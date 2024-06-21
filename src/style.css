@@ -62,6 +62,11 @@ button:focus-visible {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  min-width: none;
+}
+input {
+  width: 100%;
+  text-align: center;
 }
 
 @media (prefers-color-scheme: light) {
